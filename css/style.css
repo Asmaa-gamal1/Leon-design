@@ -386,6 +386,7 @@ line-height: 1.6;
 }
 @media (max-width:991){
 .bout-image{
+  background-image: url(../images/About.jpg);
 display: flex;
 }}
 .about .about-content .image::before {
@@ -439,7 +440,7 @@ color: #777;
 .contact{
   background-color: var(--section-background);
   padding-top: var(--section-padding);
-  padding-bottom:60px ;
+  padding-bottom: var(--section-padding); ;
 
 }
 .contact .info{
