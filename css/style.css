@@ -384,7 +384,10 @@ line-height: 1.6;
   width: 100%; 
 
 }
-
+@media (max-width:991){
+.bout-image{
+display: flex;
+}}
 .about .about-content .image::before {
   content: "";
   position: absolute;
@@ -436,7 +439,8 @@ color: #777;
 .contact{
   background-color: var(--section-background);
   padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
+  padding-bottom:60px ;
+
 }
 .contact .info{
   padding-top: var(--section-padding);
@@ -476,8 +480,8 @@ color: #777;
   .contact .info .label,
   .contact .info a{
    font-size: 25px;
-  }
-}
+  margin-left: 10px;
+}  }
 /* end contact */
 /* start footer */
 .footer{
